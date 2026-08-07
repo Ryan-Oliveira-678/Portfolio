@@ -1,324 +1,299 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="shortcut icon" href="img/gaviao.ico" type="image/x-icon">
-    <link rel="stylesheet" href="Estilos-CSS/style.css">
-</head>
-<body>
+<!DOCTYPE html> <!--Mostra ao navegador que este é o documento HHTML-->
+<html lang="pt-br"> <!--Linguagem da pagina-->
+<head> <!--Inicia o cabeçalho-->
+    <meta charset="UTF-8"> <!--Configura caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsividade ajusta a tela em qualquer dispositivo-->
+    <title>Portfólio</title> <!--Titulo na WEB-->
+    <link rel="shortcut icon" href="img/gaviao.ico" type="image/x-icon"> <!--Add favicon-->
+    <link rel="stylesheet" href="Estilos-CSS/style.css"> <!--add CSS-->
+</head><!--Finaliza o cabeçalho-->
+<body><!--Iniica o corpo do projeto-->
 
-    <header>
+    <header><!--Esse é o cabeçalho dentro do projéto-->
+    <section> <!--sessão inicial do portfolio-->
+        <h1>Meu portfólio<hr></h1> <!--Titulo principal do projeto-->
+        <p>Resumo sobre o projeto potfolio</p><!--paragrafo com o resumo do portfolio-->
 
-       
+        <img src="img/gaviao.ico" alt="aqui vai ser uma foto minha"> <!--Imagem do desenvolvedor -->
+        <a href=""> <br> <button>Curriculo</button></a> <!--link que da acesso ao curriculo-->
+        </section><!--finalizando sessão inicial do portfolio-->
 
-    </header>
+    </header><!--fechando cabeçalho-->
 
-    <main>
-        <section>
-        <h1>Meu portfólio<hr></h1>
-        <p>Resumo sobre o projeto potfolio</p>
-        
+    <main><!--iniciando main parte principal do projeto onde vem o conteduo-->
 
-        <img src="img/gaviao.ico" alt="aqui vai ser uma foto minha">
-        <a href=""> <br> <button>Curriculo</button></a>
+        <section> <!--Criando navegação no site-->
+        <h2>Sessões</h2><!--Segundo titulo para demarcar sessões-->
+        <ul><!--abrindo lista não numerada-->
+            <li><a href="#Sobre">Sobre mim</a></li><!--link interno direto para a sessão sobre mim-->
+            <li><a href="#Contatos">Contatos</a></li><!--link interno diretor para a sessão dos contatos-->
+            <li><a href="#Projetos">Projetos</a></li><!--link interno direto para a sessão dos projetos-->
+            <li><a href="#Java">Projetos Em Java</a></li><!--link interno para projetos em java-->
+            <li><a href="#Js">Projetos em JavaScript</a></li><!--link interno para projetos em JavaScript-->
+            <li><a href="#Web">Projetos em HTML, CSS e JavaScript</a></li><!--link interno para projetos WEB-->
+            <li><a href="#BD">Projetos Banco de Dados</a></li><!--Link interno para projetos sobre Banco De Dados-->
+            <li><a href="#UML">Projetos UML</a></li><!--link interno para priojetos sobre UML-->
+        </ul><!--fechando lista não numerada-->
+        </section><!--finalizando sessão de naveegação do site-->
+
+        <section id="Sobre"> <!--Nessa sessão conto um pouco sobre mim, jornada, time line e etc-->
+            <h2>Sobre mim</h2><!--Titulo 2 sobre mim-->
+        <p>Resumo sobre minha vida academica e profissional</p><!--paragrafo com resumo sobre mim (profissional e academico)-->
+
+        <h2>Minha Jornada</h2><!--titulo 2 minha jornada-->
+        <p>Linha do tempo, com formação, primeiro emprego e etc</p><!--paragrafo com resumo sobre a minha linha do tempo-->
+
+        <h2>Tecnologias</h2><!--titulo para as tecnologias em que aprendi e sigo aprendendo-->
+        <ul><!--lista não numearda-->
+            <li></li><!--item da lista-->
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul><!--finalizando lista não numerada-->
+
+        <h2>O que você encontrará neste portfolio</h2><!--titulo-->
+        <p>Spoiler do que irão encontrar (projetos e exercicicos)</p><!--paragrafo com resumo dos projetos-->
+
+        <h2>Meu objetivo</h2><!--titulo-->
+        <p>Qual o meu objetivo profissional</p><!--paragrafo com resumo dos meus objetivos-->
+
+        <h2>Diferenciais</h2><!--Titulo-->
+        <p>Soft e hard skills</p><!--Habilidades -->
         </section>
 
-        <section>
-        <h2>Sessões</h2>
-        <ul> 
-            <li><a href="#Sobre">Sobre mim</a></li>
-            <li><a href="#Contatos">Contatos</a></li>
-            <li><a href="#Projetos">Projetos</a></li>
-            <li><a href="#Java">Projetos Em Java</a></li>
-            <li><a href="#Js">Projetos em JavaScript</a></li>
-            <li><a href="#Web">Projetos em HTML, CSS e JavaScript</a></li>
-            <li><a href="#BD">Projetos Banco de Dados</a></li>
-            <li><a href="#UML">Projetos UML</a></li>
-        </ul>
-        </section>
+        <section id="Contatos"> <!--iniicio da sessão contatos, nesta sessão temos os meios de contato que podem falar comigo-->
+        <h2>Contatos</h2><!--Titulo-->
+        <ul><!--Inicio lista não ordenada-->
+            <li> <a href="">GitHub</a>(Aqui vem o link por extenso)</li><!--Link para o GitHub-->
+            <li> <a href="">Linkedin</a>(Aqui vem o link por extenso)</li><!--Link para o Linkedin-->
+            <li>E-mail</li><!--E-mail-->
+        </ul><!--Fim da lista-->
+        </section><!--Fim da sessão contatos-->
 
-        <section id="Sobre">
-            <h2>Sobre mim</h2>
-        <p>Resumo sobre minha vida academica e profissional</p>
+        <section id="Projetos"> <!--Inicio da sessão projetos, nesta sessão estarão os projetos em exibição-->
+            <h2>Projetos</h2><!--Titulo-->
 
-        <h2>Minha Jornada</h2>
-        <p>Linha do tempo, com formação, primeiro emprego e etc</p>
-
-        <h2>Tecnologias</h2>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-
-        <h2>O que você encontrará neste portfolio</h2>
-        <p>Spoiler do que irão encontrar (projetos e exercicicos)</p>
-
-        <h2>Meu objetivo</h2>
-        <p>Qual o meu on=bjetivo profissional</p>
-
-        <h2>Diferenciais</h2>
-        <p>Soft e hard skills</p>
-        </section>
-
-        <section id="Contatos">
-        <h2>Contatos</h2>
-        <ul>
-            <li> <a href="">GitHub</a>(Aqui vem o link por extenso)</li>
-            <li> <a href="">Linkedin</a>(Aqui vem o link por extenso)</li>
-            <li>E-mail</li>
-        </ul>
-        </section>
-
-        <section id="Projetos">
-            <h2>Projetos</h2>
-
-        <section id="Java">
-            <details>
-                <h3>Projetos em Java</h3>
+        <section id="Java"><!--Inicio sessão projetos em Java-->
             
+                <h3>Projetos em Java</h3><!--titulo da sessão-->
+            
+        <h4>Tabuada</h4><!--nome do projeto-->
+        <p>Esse projeto implementa uma tabuada simples em Java. foi criado para praticar o uso de variáveis e estruturas de repetição e foi desenvolvido para uma atividade da faculdade.</p><!--paragrafo com descrição do projeto-->
 
-        <h4>Tabuada</h4>
-        <p>Resumo do que ele faz e um pouco da história de como foi criado</p>
-
-        <h4>Tecnologias</h4>
-        <ul>
-            <li>Java</li>
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresnetadas no projeto-->
+        <ul><!--inicio da lista-->
+            <li>Java</li><!--item-->
             <li>Scanner</li>
             <li>Estrutura de repetição</li>
             <li>Variáveis</li>
             <li>Console</li>
-        </ul>
+        </ul><!--fim da lista-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="Projetos-Java/tabuada.java" target="_blank">Ver código</button></a>
-            <br>📷 <button><a href="img/tabuada.jpeg" target="_blank">Ver Projeto</a></button></p>
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="Projetos-Java/tabuada.java" target="_blank">Ver código</button></a><!--link para avaliarem o código-->
+            <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p><!--Link para testarem e verem o projeto funcionando-->
 
-        <h4>Sistemas de notas</h4>
-        <p>resumo</p>
+        <h4>Sistemas de notas</h4><!--nome do projeto-->
+        <p>O Sistema de Notas Acadêmicas é uma aplicação desenvolvida em Java que registra o nome e o RA do aluno, recebe as notas de Português, Matemática e Ciências e calcula automaticamente a média final.</p>
 
-        <h4>Tecnologias</h4>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <p>O sistema verifica se o aluno foi aprovado com base em duas condições: possuir média igual ou superior a 6 e não ter nota inferior a 3 em nenhuma disciplina. Ao final, apresenta um resumo com os dados do aluno, suas notas, a média calculada e a situação acadêmica.</p><!--paragrafo com descrição do projeto-->
+
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresnetadas no projeto-->
+        <ul><!--Lista não ordenada-->
+            <li>Java: linguagem utilizada no desenvolvimento.</li><!--item-->
+            <li>Scanner: classe usada para receber dados digitados pelo usuário.</li>
+            <li>Variáveis e tipos de dados: utilização de String, double, int e boolean.</li>
+            <li>Entrada e saída de dados: uso de Scanner e System.out.println().</li>
+            <li>Operadores aritméticos: cálculo da média das notas.</li>
+            <li>Operadores relacionais e lógicos: verificação dos critérios de aprovação com >= e &&.</li>
+            <li>Conversão de tipos (casting): transformação da média de double para int.</li>
+            <li>Lógica de programação: processamento das notas e definição da situação do aluno.</li>
+        </ul><!--Fechamento da lista-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="Projetos-Java/notasAcademicas.java" target="_blank">Ver código</a></button> 
-            <br>📷 <button><a href="img/notas.png" target="_blank">Ver Projéto</a></button></p>
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="Projetos-Java/notasAcademicas.java" target="_blank">Ver código</a></button> <!--link para avaliarem o código-->
+            <br>📷 <button><a href="" target="_blank">Ver Projéto</a></button></p><!--link para testarem e verem o projeto funcionando-->
 
-        <h4>Dias da Semana</h4>
-        <p>resumo</p>
+        <h4>Dias da Semana</h4><!--nome do projeto-->
+        <p>O Identificador de Dia da Semana é uma aplicação desenvolvida em Java que solicita ao usuário um número entre 1 e 7 e apresenta o dia da semana correspondente.</p>
 
-        <h4>Tecnologias</h4>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <p>O sistema utiliza uma estrutura de decisão para relacionar cada número a um dia, considerando 1 como domingo e 7 como sábado. Caso o usuário digite um número fora desse intervalo, uma mensagem informa que o valor é inválido.</p><!--descrição do projeto-->
+
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresnetadas no projeto-->
+        <ul><!--lista não ordenada-->
+            <li>Java: linguagem utilizada para desenvolver a aplicação.</li><!--item-->
+            <li>Scanner: classe responsável por receber o número digitado.</li>
+            <li>Variáveis e tipos de dados: armazenamento do número em uma variável do tipo int.</li>
+            <li>Estrutura switch-case: seleção do dia correspondente ao número.</li>
+            <li>Comando break: encerra cada caso após sua execução.</li>
+            <li>Cláusula default: trata números fora do intervalo permitido.</li>
+            <li>Entrada e saída de dados: uso de Scanner e System.out.println().</li>
+            <li>Validação de dados: identificação de valores inválidos.</li>
+        </ul><!--fechamento da lista-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</a></button> 
-            <br>📷 <button><a href="" target="_blank">Ver Projéto</a></button></p>
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="" target="_blank">Ver código</a></button> <!--link para avaliarem o código-->
+            <br>📷 <button><a href="" target="_blank">Ver Projéto</a></button></p><!--link para testarem e verem o projeto funcionando-->
 
-        <h4>Classificador de idade</h4>
-        <p>resumo</p>
+        <h4>Classificador de idade</h4><!--nome do projeto-->
+        <p>O Classificador de Faixa Etária é uma aplicação desenvolvida em Java que solicita o nome e a idade do usuário e, com base nas informações fornecidas, classifica sua faixa etária. </p><!--descrição do projeto-->
 
-        <h4>Tecnologias</h4>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <p>As classificações utilizadas são: <br>
+
+        Criança: menos de 12 anos; <br>
+        Adolescente: entre 12 e 17 anos; <br>
+        Adulto: entre 18 e 59 anos; <br>
+        Idoso: 60 anos ou mais. <br> 
+        Ao final, o sistema apresenta o nome da pessoa e sua respectiva classificação.</p><!--descrição do projeto-->
+
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresnetadas no projeto-->
+        <ul><!--lista não ordenada-->
+            <li>Java: linguagem utilizada no desenvolvimento.</li><!--item-->
+            <li>Scanner: classe usada para receber os dados digitados.</li>
+            <li>Variáveis e tipos de dados: uso de String para o nome e int para a idade.</li>
+            <li>Estruturas condicionais: utilização de if, else if e else.</li>
+            <li>Operadores relacionais: comparação da idade por meio do operador >=.</li>
+            <li>Entrada e saída de dados: uso de Scanner e System.out.println().</li>
+            <li>Lógica de programação: classificação do usuário conforme sua faixa etária.</li>
+            <li>Tratamento do buffer: uso de scanner.nextLine() após nextInt().</li>
+
+        </ul><!--fechamento da lista-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</a></button> 
-            <br>📷 <button><a href="" target="_blank">Ver Projéto</a></button></p>
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="" target="_blank">Ver código</a></button> <!--link para avaliarem o código-->
+            <br>📷 <button><a href="" target="_blank">Ver Projéto</a></button></p><!--link para testarem e verem o projeto funcionando-->
 
-        <h4>Advinhe o numero</h4>
-        <p>resumo</p>
+        <h4>Advinhe o numero</h4><!--nome do projeto-->
+        <p>O Jogo de Adivinhação é uma aplicação desenvolvida em Java que gera aleatoriamente um número secreto entre 1 e 10 e desafia o usuário a descobri-lo.</p>
 
-        <h4>Tecnologias</h4>
+        <p>Enquanto o número digitado estiver incorreto, o sistema informa se a tentativa foi maior ou menor que o número secreto e solicita uma nova resposta. O jogo termina quando o usuário acerta, exibindo uma mensagem de parabéns.</p><!--descrição do projeto-->
 
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresnetadas no projeto-->
+        <ul><!--lista não ordenada-->
+            <li>Java: linguagem utilizada no desenvolvimento.</li><!--item-->
+            <li>Scanner: classe usada para receber as tentativas do usuário.</li>
+            <li>Math.random(): método utilizado para gerar o número aleatório.</li>
+            <li>Conversão de tipos: casting de double para int.</li>
+            <li>Laço de repetição while: mantém o jogo em execução enquanto o usuário não acertar.</li>
+            <li>Estrutura condicional if/else: verifica se a tentativa foi alta ou baixa.</li>
+            <li>Operadores relacionais: utilização de != e >.</li>
+            <li>Variáveis: armazenamento do número secreto e da tentativa.</li>
+            <li>Entrada e saída de dados: uso de Scanner e System.out.println().</li>
+            <li>Lógica de programação: comparação das tentativas com o número secreto.</li>
+        </ul><!--fechamento da lista-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</a></button> 
-            <br>📷 <button><a href="" target="_blank">Ver Projéto</a></button></p>
-        </details></section>    
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="" target="_blank">Ver código</a></button> <!--link para avaliarem o código-->
+            <br>📷 <button><a href="" target="_blank">Ver Projéto</a></button></p><!--link para testarem e verem o projeto funcionando-->
+        </details></section> <!--fecjando a sessão Java-->   
 
-        <section id="Js">
-            <h3>Projetos em JavaScript</h3>
+        <section id="Js"><!--Inicio sessão projetos em JavaScript-->
+            <h3>Projetos em JavaScript</h3><!--titulo-->
+
+        <h4>nome</h4><!--titulo do projeto-->
+        <p>resumo</p><!--descrição do projeto-->
+
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresentadas no projeto-->
+        <ul><!--lista não ordenada-->
+            <li></li><!--item-->
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul><!--fechamento da lista-->
         
-        <h4>nome</h4>
-        <p>resumo</p>
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="" target="_blank">Ver código</button></a><!--link para avaliarem o código-->
+            <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p><!--link para testarem e verem o projeto funcionando-->
 
-        <h4>Tecnologias</h4>
-        <ul>
+        <h4>nome</h4><!--titulo do projeto-->
+        <p>resumo</p><!--descrição do projeto-->
+
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresentadas no projeto-->
+        <ul><!--lista não ordenada-->
+            <li></li><!--item-->
             <li></li>
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-        </ul>
+        </ul><!--fechamento da lista-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</button></a>
-        <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p>
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="" target="_blank">Ver código</button></a><!--link para avaliarem o código-->
+            <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p><!--link para testarem e verem o projeto funcionando-->
 
-        <h4>nome</h4>
-        <p>resumo</p>
+        </section><!--fechando a sessão JavaScript-->
 
-        <h4>Tecnologias</h4>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <section id="Web"><!--Inicio sessão projetos na WEB-->
+            <h3>Projetos em Html, css e js</h3><!--titulo-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</button></a>
-        <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p>
+        <h4>Projeto curso em video HTML</h4><!--titulo do projeto-->
+        <p>resumo</p><!--descrição do projeto-->
 
-        </section>
-
-        <section id="Web">
-            <h3>Projetos em Html, css e js</h3>
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresentadas no projeto-->
+        <ul><!--lista não ordenada-->
+            <li></li><!--item-->
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul><!--fechamento da lista-->
         
-        <h4>Projeto curso em video HTML</h4>
-        <p>resumo</p>
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="" target="_blank">Ver código</button></a><!--link para avaliarem o código-->
+            <br>📷 <button><a href="index2.html" target="_blank">Ver Projeto</a></button></p><!--link para testarem e verem o projeto funcionando-->
 
-        <h4>Tecnologias</h4>
-        <ul>
+        </section><!--fechando a sessão WEB-->
+
+        <section id="BD"><!--Inicio sessão projetos em Banco de dados-->
+            <h3>Projetos em Banco de dados</h3><!--Titulo-->
+
+        <h4>nome</h4><!--titulo do projeto-->
+        <p>resumo</p><!--descrição do projeto-->
+
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresentadas no projeto-->
+        <ul><!--lista não ordenada-->
+            <li></li><!--item-->
             <li></li>
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-        </ul>
+        </ul><!--fechamento da lista-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</button></a>
-        <br>📷 <button><a href="index2.html" target="_blank">Ver Projeto</a></button></p>
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="" target="_blank">Ver código</button></a><!--link para avaliarem o código-->
+            <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p><!--link para testarem e verem o projeto funcionando-->
 
-        <h4>nome</h4>
-        <p>resumo</p>
+        </section><!--fechando a sessão Banco de dados-->
 
-        <h4>Tecnologias</h4>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <section id="UML"><!--Inicio sessão diagramas e parte teórica-->
+            <h3>Diagramas e parte teórica</h3><!--Titulo-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</button></a>
-        <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p>
+        <h4>nome</h4><!--titulo do projeto-->
+        <p>resumo</p><!--descrição do projeto-->
 
-        </section>
-
-        <section id="BD">
-            <h3>Projetos em Banco de dados</h3>
-
-        <h4>nome</h4>
-        <p>resumo</p>
-
-        <h4>Tecnologias</h4>
-        <ul>
+        <h4>Tecnologias</h4><!--titulo para as tecnologias apresentadas no projeto-->
+        <ul><!--lista não ordenada-->
+            <li></li><!--item-->
             <li></li>
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-        </ul>
+        </ul><!--fechamento da lista-->
         
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</button></a>
-        <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p>
+        <h4>Visualização</h4><!--titulo para links sobre o projeto-->
+        <p>📄<button><a href="" target="_blank">Ver código</button></a><!--link para avaliarem o código-->
+            <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p><!--link para testarem e verem o projeto funcionando-->
+        </section><!--fechando a sessão diagramas e parte teórica-->
+        </section><!--fechando a sessão projetos-->
 
-        <h4>nome</h4>
-        <p>resumo</p>
+    </main><!--fechando o conteúdo principal-->
 
-        <h4>Tecnologias</h4>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</button></a>
-        <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p>
+    <footer><!--abrindo o rodapé-->
 
-        </section>
+    </footer><!--fechando o rodapé-->
 
-        <section id="UML">
-            <h3>Diagramas e parte teórica</h3>
-        
-        <h4>nome</h4>
-        <p>resumo</p>
-
-        <h4>Tecnologias</h4>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</button></a>
-        <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p>
-
-        <h4>nome</h4>
-        <p>resumo</p>
-
-        <h4>Tecnologias</h4>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        
-        <h4>Visualização</h4>
-        <p>📄<button><a href="" target="_blank">Ver código</button></a>
-        <br>📷 <button><a href="" target="_blank">Ver Projeto</a></button></p>
-        </section>
-        </section>
-            
-
-    </main>
-
-    <footer>
-
-    </footer>
-
-</body>
-</html>
+</body><!--fechando o corpo do documento-->
+</html><!--Fechando o documento-->

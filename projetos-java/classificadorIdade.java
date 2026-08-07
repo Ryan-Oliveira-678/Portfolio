@@ -12,13 +12,13 @@ public class classificadorIdade {
         scanner.nextLine();// prevenção para bug buffer
 
         if(idade1 >= 60){ //for para classificar faixa etaria 
-            System.out.println(nome1 +" é "+"Idoso");// primeiro for se o valor de (idade1) for maior ou igual a 60 então retorna idoso
+            System.out.println(nome1 +" é "+"Idoso");// primeiro if se o valor de (idade1) for maior ou igual a 60 então retorna idoso
         } else if(idade1 >= 18){
-            System.out.println(nome1 +" é "+"Adulto");//segundo for se o valor de (idade1) for maior ou igual a 18 então retorna adulto
+            System.out.println(nome1 +" é "+"Adulto");//primeiro else if se o valor de (idade1) for maior ou igual a 18 então retorna adulto
         } else if(idade1 >=12){
-            System.out.println(nome1 +" é "+"Adolescente");//terceiro for se o valor de (idade1) for maior ou igual a 12 então retorna adolescente
+            System.out.println(nome1 +" é "+"Adolescente");//Segundo else if se o valor de (idade1) for maior ou igual a 12 então retorna adolescente
         } else{
-            System.out.println(nome1 +" é "+"Criança");//quarto e ultimo for se o valor de (idade1) for maior ou igual a 60 então retorna criança
+            System.out.println(nome1 +" é "+"Criança");//primeiro e ultimo else se o valor de (idade1) for maior ou igual a 60 então retorna criança
         }
 
         scanner.close();
